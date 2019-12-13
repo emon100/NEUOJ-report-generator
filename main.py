@@ -28,7 +28,7 @@ def getCode(statusPath):
 
 name = '王一蒙'
 username = '20184366'
-username1 = 20184366
+studentID = 20184366
 
 path = "template/{0}.docx"
 document = Document(path.format(1))  # 打开文件.docx
@@ -53,7 +53,7 @@ for pid in range(652, 705):
         font.size = Pt(24)
 
         para = document.add_paragraph()
-        run = para.add_run("班级： 计算机1805 姓名： {0}  学号： {1} ".format(name, username1))
+        run = para.add_run("班级： 计算机1805 姓名： {0}  学号： {1} ".format(name, studentID))
         run.bold = True
         font = run.font
         font.name = u'宋体'
@@ -95,4 +95,4 @@ for pid in range(652, 705):
         para = document.add_paragraph('   ')
         document.add_page_break()
 
-document.save(path.format(username1))
+document.save(path.format(studentID))

@@ -12,7 +12,7 @@ Step 0.配置环境<br>
 Step 1.添加个人信息<br>
 ·用自己姓名替换name
 ·用自己的刷题所用的用户名替换username的单引号内内容
-·用学号替换username1。
+·用学号替换StuID。
 <br>
  
 Step 2.运行脚本<br>
